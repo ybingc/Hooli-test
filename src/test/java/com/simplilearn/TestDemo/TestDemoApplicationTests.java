@@ -10,4 +10,12 @@ class TestDemoApplicationTests {
 	void contextLoads() {
 	}
 
+	public static int getNumber10() {
+	    return 10;
+	}
+	@Test
+	public void test1() {
+	    assertEquals(10, getNumber10());
+	}
+
 }
