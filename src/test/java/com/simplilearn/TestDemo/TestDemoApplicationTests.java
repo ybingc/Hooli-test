@@ -7,9 +7,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @SpringBootTest
 class TestDemoApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+	//@Test
+	//void contextLoads() {
+	//}
 
 	public static int getNumber10() {
 	    return 10;
